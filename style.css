@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+
+body {
+	color: #bbb;
+	background: url(bg.jpg) #111;
+	font-family: "Exo 2";
+}
+
+h2 {
+	border-bottom: 2px solid white;
+}
+
+a {
+	color: #bbf;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 98%;
+	max-width: 600px;
+}
+
+#wrap > div {
+	margin: 10px 0px;
+	color: #3b5;
+	padding: 10px;
+}
+
+#wrap > div > h3 {
+	text-align: center;
+}
+
+.thumb {
+	height: 120px;
+	background: no-repeat center center white;
+	margin-right: 20px;
+}
+
+.thm-red {color: #cc2424 !important; transition: background-color 0.5s ease;}
+.thm-red > .thumb {background-color: #cc2424 !important;}
+.thm-red:hover {background-color: #cc2424 !important; color: white !important;}
+
+.thm-blue {color: #2456cc !important; transition: background-color 0.5s ease;}
+.thm-blue > .thumb {background-color: #2456cc !important;}
+.thm-blue:hover {background-color: #2456cc !important; color: white !important;}
+
+.thm-yellow {color: #bbcc24 !important; transition: background-color 0.5s ease;}
+.thm-yellow > .thumb {background-color: #bbcc24 !important;}
+.thm-yellow:hover {background-color: #bbcc24 !important; color: white !important;}
+
+.thm-green {color: #3dcc24 !important; transition: background-color 0.5s ease;}
+.thm-green > .thumb {background-color: #3dcc24 !important;}
+.thm-green:hover {background-color: #3dcc24 !important; color: white !important;}
+
+
+.thm-orange {color: #cc9a24 !important; transition: background-color 0.5s ease;}
+.thm-orange > .thumb {background-color: #cc9a24 !important;}
+.thm-orange:hover {background-color: #cc9a24 !important; color: white !important;}
+
+
+.thm-cyan {color: #24cc78 !important; transition: background-color 0.5s ease;}
+.thm-cyan > .thumb {background-color: #24cc78 !important;}
+.thm-cyan:hover {background-color: #24cc78 !important; color: white !important;}
+
+
+.thm-violet {color: #5624cc !important; transition: background-color 0.5s ease;}
+.thm-violet > .thumb {background-color: #5624cc !important;}
+.thm-violet:hover {background-color: #5624cc !important; color: white !important;}
+
+
+.thm-pink {color: #cc2489 !important; transition: background-color 0.5s ease;}
+.thm-pink > .thumb {background-color: #cc2489 !important;}
+.thm-pink:hover {background-color: #cc2489 !important; color: white !important;}
+
+#header { color: #bbb !important; }
+
+#post .thumb {background-image: url(img/icon-post.png);}
+
+#vk .thumb {background-image: url(img/icon-vk.png);}
+
+#email .thumb {background-image: url(img/icon-email.png);}
+
+#vegclub .thumb {background-image: url(img/icon-vegclub.png);}
+
+#forletter .thumb {background-image: url(img/icon-forletter.png);}
+
+#distrozine .thumb {background-image: url(img/icon-distrozine.png);}
+
+#southrain .thumb {background-image: url(img/icon-southrain.png);}
+
+#arps .thumb {background-image: url(img/icon-arps.png);}
